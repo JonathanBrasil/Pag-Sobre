@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: 'Mohave', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #000000;
+    --deep-grey: #2F3640;
+    --light-grey: #F5F6FA;
+    --medio-grey: #D9D9D9;
+    --white: #FFFFFF;
+    --yellow: #ECEF50;
+    --margin: 90px;
+    --margin-top: 150px;
+    --padding-dinamico: clamp(35px, 8%, 70px);
+
+}
+
+/* CONTAINER GERAL ABRIGANDO AS 3 SEÇÕES */
+.pagina-sobre {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* PARTE DA INTRODUÇÃO */
+
+/* container principal introdução */
+.sobre-introducao {
+    background-color: var(--deep-grey);
+    min-height: 100vh;
+}
+
+.sobre-introducao-cabecalho{
+    margin: var(--margin);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: var(--margin-top);
+}
+
+
+.sobre-introducao-cabecalho-textos{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+
+}
+
+.sobre-introducao-cabecalho-texto1{
+    color: #C3BCBC;
+    font-size: 24px;
+    
+}
+
+.sobre-introducao-cabecalho-texto2{
+    color: #F5F6FA;
+    margin-top: 20px;
+    font-size: 48px;
+    
+}
+
+.sobre-img{
+    display: flex;
+    margin-left:500px;
+}
+
+
+
+/* container textos secundários */
+
+.introducao-textos-secundarios{
+
+    display: flex;
+    flex-direction: column;
+    margin: var(--margin);
+    color: var(--white);
+    margin-bottom: var(--margin);
+
+}
+
+.introducao-textos-secundarios-p{
+    padding-top: 20px;
+}
+
+
+
+
+.sobre-devs {
+
+    background-color: var(--deep-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.sobre-contato {
+
+    background-color: var(--light-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+
+
+
+}
